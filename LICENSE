@@ -1,0 +1,16 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This license applies to the COMPILATION in this repository — the selection, structure,
+labels, "why" summaries, and framing of the dataset.
+
+You are free to share and adapt it for any purpose, including commercially, provided you
+give appropriate credit to: Progress Tab (https://progresstab.app).
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+NOTE ON THE UNDERLYING FIGURES
+Each numeric figure in this dataset originates from a third-party primary source (e.g. Our
+World in Data, the WHO, the World Bank, UNICEF, the UN, IRENA, The Carter Center). Those
+figures remain under their respective source licenses, recorded per figure in the "source"
+object of facts.json ("license" field). When reusing a specific number, attribute its
+original source, not only this compilation.

@@ -1,0 +1,1085 @@
+[
+  {
+    "id": "clean-cooking-access",
+    "slug": "clean-cooking-access",
+    "question": "How many people have clean cooking?",
+    "indicator": "Access to clean cooking",
+    "value": "74.4%",
+    "value_num": 74.4,
+    "unit": "percent",
+    "as_of": 2023,
+    "period": {
+      "from": 2000,
+      "to": 2023
+    },
+    "change": "+25 pts since 2000",
+    "direction_better": "higher",
+    "why": "Urbanization, expanding LPG and electricity networks, and SDG7 access and fuel-subsidy programs raised the share with clean cooking fuels from 48.9% in 2000 to 74.4%. Yet about 2.1 billion people still cook over wood, charcoal, dung, or kerosene, and the resulting indoor air pollution remains a leading environmental health risk.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 48.9
+      },
+      {
+        "year": 2010,
+        "value": 57.2
+      },
+      {
+        "year": 2015,
+        "value": 63.9
+      },
+      {
+        "year": 2020,
+        "value": 71.1
+      },
+      {
+        "year": 2023,
+        "value": 74.4
+      }
+    ],
+    "source": {
+      "name": "World Bank (WHO Household Energy DB)",
+      "url": "https://data.worldbank.org/indicator/EG.CFT.ACCS.ZS?locations=1W",
+      "license": "CC-BY 4.0 (World Bank Open Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/clean-cooking-access"
+  },
+  {
+    "id": "electricity-access",
+    "slug": "electricity-access",
+    "question": "How many people have electricity?",
+    "indicator": "Access to electricity",
+    "value": "91%",
+    "value_num": 91,
+    "unit": "percent",
+    "as_of": 2022,
+    "period": {
+      "from": 2000,
+      "to": 2022
+    },
+    "change": "+13 pts since 2000",
+    "direction_better": "higher",
+    "why": "Electricity at home brings light to study by, cooling for medicine, and a connection to the world.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 78
+      },
+      {
+        "year": 2005,
+        "value": 80
+      },
+      {
+        "year": 2010,
+        "value": 83
+      },
+      {
+        "year": 2014,
+        "value": 85
+      },
+      {
+        "year": 2018,
+        "value": 89
+      },
+      {
+        "year": 2021,
+        "value": 91
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/energy-access",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/electricity-access"
+  },
+  {
+    "id": "adult-literacy-rate",
+    "slug": "adult-literacy",
+    "question": "Is global literacy rising?",
+    "indicator": "Adult literacy",
+    "value": "87%",
+    "value_num": 87,
+    "unit": "percent",
+    "as_of": 2020,
+    "period": {
+      "from": 1990,
+      "to": 2020
+    },
+    "change": "+12 pts since 1990",
+    "direction_better": "higher",
+    "why": "Reading is the precondition for learning, work, and using public services.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 75
+      },
+      {
+        "year": 2000,
+        "value": 81
+      },
+      {
+        "year": 2005,
+        "value": 83
+      },
+      {
+        "year": 2010,
+        "value": 84
+      },
+      {
+        "year": 2015,
+        "value": 86
+      },
+      {
+        "year": 2020,
+        "value": 87
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/literacy",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/adult-literacy"
+  },
+  {
+    "id": "basic-sanitation-access",
+    "slug": "sanitation-access",
+    "question": "How many people have basic sanitation?",
+    "indicator": "Basic sanitation access",
+    "value": "82.2%",
+    "value_num": 82.2,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 2000,
+      "to": 2024
+    },
+    "change": "+27 pts since 2000",
+    "direction_better": "higher",
+    "why": "Sustained WASH programs and SDG monitoring expanded household toilets and sewerage, lifting coverage from 54.8% in 2000 to about four in five people. Yet roughly 1.5 billion still lack even a basic toilet, and much of what counts as «basic» is still not safely managed.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 54.8
+      },
+      {
+        "year": 2005,
+        "value": 60.7
+      },
+      {
+        "year": 2010,
+        "value": 66.7
+      },
+      {
+        "year": 2015,
+        "value": 72.6
+      },
+      {
+        "year": 2020,
+        "value": 78.3
+      },
+      {
+        "year": 2024,
+        "value": 82.2
+      }
+    ],
+    "source": {
+      "name": "World Bank (WHO/UNICEF JMP)",
+      "url": "https://data.worldbank.org/indicator/SH.STA.BASS.ZS?locations=1W",
+      "license": "CC-BY 4.0 (World Bank Open Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/sanitation-access"
+  },
+  {
+    "id": "child-mortality-under-5",
+    "slug": "child-mortality",
+    "question": "Is child mortality falling?",
+    "indicator": "Child mortality (under 5)",
+    "value": "37 per 1,000",
+    "value_num": 37,
+    "unit": "per_1000",
+    "as_of": 2022,
+    "period": {
+      "from": 1960,
+      "to": 2022
+    },
+    "change": "−60% since 1990",
+    "direction_better": "lower",
+    "why": "Most of these deaths came from infections and birth complications now prevented by vaccines, antibiotics, and clean water.",
+    "chart": [
+      {
+        "year": 1960,
+        "value": 182
+      },
+      {
+        "year": 1970,
+        "value": 143
+      },
+      {
+        "year": 1980,
+        "value": 115
+      },
+      {
+        "year": 1990,
+        "value": 93
+      },
+      {
+        "year": 2000,
+        "value": 76
+      },
+      {
+        "year": 2010,
+        "value": 52
+      },
+      {
+        "year": 2022,
+        "value": 37
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/child-mortality",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/child-mortality"
+  },
+  {
+    "id": "child-labour-rate",
+    "slug": "child-labour",
+    "question": "Is child labour falling?",
+    "indicator": "Children in child labour",
+    "value": "7.8%",
+    "value_num": 7.8,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 2000,
+      "to": 2024
+    },
+    "change": "−8.2 pts since 2000",
+    "direction_better": "lower",
+    "why": "Free compulsory schooling, social-protection and cash-transfer schemes, and ratified ILO conventions backed by labour inspection cut the share of children in child labour from 16.0% in 2000 to 7.8%. Yet about 138 million children are still working, and progress slowed enough that the world missed its 2025 target to end it.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 16
+      },
+      {
+        "year": 2004,
+        "value": 14.2
+      },
+      {
+        "year": 2008,
+        "value": 13.6
+      },
+      {
+        "year": 2012,
+        "value": 10.6
+      },
+      {
+        "year": 2016,
+        "value": 9.6
+      },
+      {
+        "year": 2020,
+        "value": 9.6
+      },
+      {
+        "year": 2024,
+        "value": 7.8
+      }
+    ],
+    "source": {
+      "name": "ILO & UNICEF (Global Estimates 2024)",
+      "url": "https://data.unicef.org/resources/child-labour-global-estimates-2024/",
+      "license": "© ILO/UNICEF, attribution required (see source)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/child-labour"
+  },
+  {
+    "id": "undernourishment-rate",
+    "slug": "world-hunger",
+    "question": "Is world hunger falling?",
+    "indicator": "Chronic hunger worldwide",
+    "value": "8.2%",
+    "value_num": 8.2,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 2000,
+      "to": 2024
+    },
+    "change": "−4.5 pts since 2000",
+    "direction_better": "lower",
+    "why": "Rising farm productivity, incomes, and food-security and social-protection programs widened access to food, cutting the share from about 13% in 2000 to 8.2%. Yet roughly 1 in 12 people, about 673 million, still face chronic hunger, and the rate is still above its 7.5% pre-pandemic level.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 12.7
+      },
+      {
+        "year": 2005,
+        "value": 12
+      },
+      {
+        "year": 2010,
+        "value": 8.7
+      },
+      {
+        "year": 2015,
+        "value": 7.7
+      },
+      {
+        "year": 2019,
+        "value": 7.5
+      },
+      {
+        "year": 2021,
+        "value": 8.8
+      },
+      {
+        "year": 2024,
+        "value": 8.2
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (FAO, SOFI 2025)",
+      "url": "https://ourworldindata.org/grapher/prevalence-of-undernourishment",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/world-hunger"
+  },
+  {
+    "id": "solar-electricity-cost",
+    "slug": "solar-power-cost",
+    "question": "Is solar power getting cheaper?",
+    "indicator": "Cost of solar electricity",
+    "value": "0.044 $/kWh",
+    "value_num": 0.044,
+    "unit": "usd_per_kwh",
+    "as_of": 2023,
+    "period": {
+      "from": 2010,
+      "to": 2023
+    },
+    "change": "−90% since 2010",
+    "direction_better": "lower",
+    "why": "When solar power is cheaper than fossil fuels, leaving coal becomes an economic choice, not only an environmental one.",
+    "chart": [
+      {
+        "year": 2010,
+        "value": 0.46
+      },
+      {
+        "year": 2015,
+        "value": 0.21
+      },
+      {
+        "year": 2018,
+        "value": 0.1
+      },
+      {
+        "year": 2020,
+        "value": 0.057
+      },
+      {
+        "year": 2022,
+        "value": 0.049
+      },
+      {
+        "year": 2023,
+        "value": 0.044
+      }
+    ],
+    "source": {
+      "name": "IRENA, Renewable Power Generation Costs in 2023",
+      "url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
+      "license": "© IRENA 2024, attribution required (see source)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/solar-power-cost"
+  },
+  {
+    "id": "natural-disaster-deaths",
+    "slug": "natural-disaster-deaths",
+    "question": "Are deaths from natural disasters falling?",
+    "indicator": "Deaths from natural disasters",
+    "value": "around 10× lower than a century ago",
+    "value_num": null,
+    "unit": null,
+    "as_of": 2020,
+    "period": {
+      "from": 1920,
+      "to": 2020
+    },
+    "change": "−90%+ since the 1920s",
+    "direction_better": "lower",
+    "why": "Early-warning systems, sturdier housing, and organized evacuation save most of those who once would have died.",
+    "chart": null,
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/natural-disasters",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/natural-disaster-deaths"
+  },
+  {
+    "id": "smallpox-eradicated",
+    "slug": "smallpox-eradication",
+    "question": "Has smallpox been eradicated?",
+    "indicator": "Deaths from smallpox",
+    "value": "0 (eradicated 1980)",
+    "value_num": 0,
+    "unit": "deaths_per_year",
+    "as_of": 1980,
+    "period": {
+      "from": 1900,
+      "to": 1980
+    },
+    "change": "≈2M/year in the 1960s → 0",
+    "direction_better": "lower",
+    "why": "A disease that killed around 300 million people in the 20th century vanished completely through a global vaccination campaign.",
+    "chart": null,
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/smallpox",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/smallpox-eradication"
+  },
+  {
+    "id": "dtp3-vaccine-coverage",
+    "slug": "vaccination-coverage",
+    "question": "Is global vaccine coverage rising?",
+    "indicator": "DTP3 vaccine coverage",
+    "value": "84%",
+    "value_num": 84,
+    "unit": "percent",
+    "as_of": 2023,
+    "period": {
+      "from": 1980,
+      "to": 2023
+    },
+    "change": "from 20% (1980) to 84%",
+    "direction_better": "higher",
+    "why": "Three doses against diphtheria, tetanus, and pertussis show whether the health system reaches infants.",
+    "chart": [
+      {
+        "year": 1980,
+        "value": 20
+      },
+      {
+        "year": 1990,
+        "value": 76
+      },
+      {
+        "year": 2000,
+        "value": 72
+      },
+      {
+        "year": 2010,
+        "value": 83
+      },
+      {
+        "year": 2019,
+        "value": 86
+      },
+      {
+        "year": 2023,
+        "value": 84
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (WHO/UNICEF WUENIC)",
+      "url": "https://ourworldindata.org/grapher/share-of-children-immunized-dtp3",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/vaccination-coverage"
+  },
+  {
+    "id": "extreme-poverty-rate",
+    "slug": "extreme-poverty",
+    "question": "Is extreme poverty falling?",
+    "indicator": "Extreme poverty worldwide",
+    "value": "8.5%",
+    "value_num": 8.5,
+    "unit": "percent",
+    "as_of": 2019,
+    "period": {
+      "from": 1990,
+      "to": 2019
+    },
+    "change": "−78% since 1990",
+    "direction_better": "lower",
+    "why": "Growing economies and wider access to work and social support lifted hundreds of millions out of poverty. Yet about 650 million people still live on less than $2.15 a day, and it remains one of the world's biggest risks.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 38
+      },
+      {
+        "year": 1999,
+        "value": 29
+      },
+      {
+        "year": 2008,
+        "value": 18
+      },
+      {
+        "year": 2013,
+        "value": 11.5
+      },
+      {
+        "year": 2017,
+        "value": 9.3
+      },
+      {
+        "year": 2019,
+        "value": 8.5
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/poverty",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/extreme-poverty"
+  },
+  {
+    "id": "guinea-worm-cases",
+    "slug": "guinea-worm-eradication",
+    "question": "Is Guinea worm disease almost gone?",
+    "indicator": "Guinea worm disease",
+    "value": "14 cases (2023)",
+    "value_num": 14,
+    "unit": "cases",
+    "as_of": 2023,
+    "period": {
+      "from": 1986,
+      "to": 2023
+    },
+    "change": "from ≈3.5M in 1986",
+    "direction_better": "lower",
+    "why": "The disease is stopped not by drugs but by filtering drinking water and controlling sources of infection.",
+    "chart": null,
+    "source": {
+      "name": "The Carter Center",
+      "url": "https://www.cartercenter.org/health/guinea_worm/case-totals.html",
+      "license": "The Carter Center, see source for terms",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/guinea-worm-eradication"
+  },
+  {
+    "id": "hiv-aids-death-rate",
+    "slug": "hiv-aids-deaths",
+    "question": "Are HIV/AIDS deaths falling?",
+    "indicator": "HIV/AIDS death rate",
+    "value": "9.9 per 100,000",
+    "value_num": 9.9,
+    "unit": "per_100000",
+    "as_of": 2023,
+    "period": {
+      "from": 2000,
+      "to": 2023
+    },
+    "change": "−63% from 2000s peak",
+    "direction_better": "lower",
+    "why": "Antiretroviral therapy scaled across low- and middle-income countries, generic competition that cut treatment costs, and wider testing reduced the age-standardized death rate by about two-thirds from its early-2000s peak near 27 per 100,000 to about 10. Yet HIV/AIDS still kills around 600,000 people a year, most in sub-Saharan Africa, and millions living with HIV are still not on treatment.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 24.6
+      },
+      {
+        "year": 2003,
+        "value": 26.9
+      },
+      {
+        "year": 2010,
+        "value": 16.9
+      },
+      {
+        "year": 2015,
+        "value": 12.8
+      },
+      {
+        "year": 2020,
+        "value": 10.8
+      },
+      {
+        "year": 2023,
+        "value": 9.9
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (IHME, GBD 2023)",
+      "url": "https://ourworldindata.org/grapher/hiv-death-rates",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/hiv-aids-deaths"
+  },
+  {
+    "id": "internet-access",
+    "slug": "internet-access",
+    "question": "How many people have internet access?",
+    "indicator": "Internet access",
+    "value": "67%",
+    "value_num": 67,
+    "unit": "percent",
+    "as_of": 2023,
+    "period": {
+      "from": 1995,
+      "to": 2023
+    },
+    "change": "from <1% in 1995",
+    "direction_better": "higher",
+    "why": "Getting online opens education, banking, and the job market to people far from big cities.",
+    "chart": [
+      {
+        "year": 1995,
+        "value": 0.8
+      },
+      {
+        "year": 2000,
+        "value": 6.7
+      },
+      {
+        "year": 2005,
+        "value": 16
+      },
+      {
+        "year": 2010,
+        "value": 29
+      },
+      {
+        "year": 2015,
+        "value": 41
+      },
+      {
+        "year": 2020,
+        "value": 60
+      },
+      {
+        "year": 2023,
+        "value": 67
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/internet",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/internet-access"
+  },
+  {
+    "id": "life-expectancy-global",
+    "slug": "life-expectancy",
+    "question": "Is global life expectancy rising?",
+    "indicator": "Life expectancy",
+    "value": "73 years",
+    "value_num": 73,
+    "unit": "years",
+    "as_of": 2023,
+    "period": {
+      "from": 1900,
+      "to": 2023
+    },
+    "change": "+41 years since 1900",
+    "direction_better": "higher",
+    "why": "The gain came not from one breakthrough but from sanitation, vaccines, antibiotics, and better nutrition together.",
+    "chart": [
+      {
+        "year": 1900,
+        "value": 32
+      },
+      {
+        "year": 1950,
+        "value": 46
+      },
+      {
+        "year": 1970,
+        "value": 58
+      },
+      {
+        "year": 1990,
+        "value": 64
+      },
+      {
+        "year": 2010,
+        "value": 71
+      },
+      {
+        "year": 2023,
+        "value": 73
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/life-expectancy",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/life-expectancy"
+  },
+  {
+    "id": "malaria-death-rate",
+    "slug": "malaria-deaths",
+    "question": "Are malaria deaths falling?",
+    "indicator": "Malaria death rate",
+    "value": "9.6 per 100,000",
+    "value_num": 9.6,
+    "unit": "per_100000",
+    "as_of": 2023,
+    "period": {
+      "from": 1990,
+      "to": 2023
+    },
+    "change": "−34% since 2000",
+    "direction_better": "lower",
+    "why": "Mass rollout of insecticide-treated bed nets, rapid tests, and artemisinin treatment funded through the Global Fund cut the age-standardized death rate by about a third since its early-2000s peak. Yet malaria still kills roughly 600,000 people a year, most of them children under 5, and progress has stalled near 10 per 100,000 as drug resistance spreads.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 13.5
+      },
+      {
+        "year": 2000,
+        "value": 14.6
+      },
+      {
+        "year": 2005,
+        "value": 14.4
+      },
+      {
+        "year": 2010,
+        "value": 12.4
+      },
+      {
+        "year": 2015,
+        "value": 9.7
+      },
+      {
+        "year": 2019,
+        "value": 9
+      },
+      {
+        "year": 2020,
+        "value": 10
+      },
+      {
+        "year": 2023,
+        "value": 9.6
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (IHME, GBD 2023)",
+      "url": "https://ourworldindata.org/grapher/malaria-death-rates",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/malaria-deaths"
+  },
+  {
+    "id": "maternal-mortality-ratio",
+    "slug": "maternal-mortality",
+    "question": "Is maternal mortality falling?",
+    "indicator": "Maternal mortality",
+    "value": "223 per 100,000",
+    "value_num": 223,
+    "unit": "per_100000",
+    "as_of": 2020,
+    "period": {
+      "from": 2000,
+      "to": 2020
+    },
+    "change": "−35% since 2000",
+    "direction_better": "lower",
+    "why": "Skilled care during birth and access to emergency help make the most dangerous complications manageable. Yet progress has nearly stalled since 2015: about 287,000 women a year (2020) still die from largely preventable causes.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 342
+      },
+      {
+        "year": 2005,
+        "value": 313
+      },
+      {
+        "year": 2010,
+        "value": 282
+      },
+      {
+        "year": 2015,
+        "value": 227
+      },
+      {
+        "year": 2020,
+        "value": 223
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/maternal-mortality",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/maternal-mortality"
+  },
+  {
+    "id": "ozone-depleting-substances",
+    "slug": "ozone-layer-recovery",
+    "question": "Is the ozone layer recovering?",
+    "indicator": "Ozone-depleting substances",
+    "value": "−99%",
+    "value_num": -99,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 1987,
+      "to": 2024
+    },
+    "change": "layer recovery by ~2066",
+    "direction_better": "lower",
+    "why": "Nearly all ozone-depleting substances were phased out under the Montreal Protocol, a rare case of countries jointly banning a harmful chemical; less ultraviolet means less skin cancer and less harm to crops.",
+    "chart": null,
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/ozone-layer",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/ozone-layer-recovery"
+  },
+  {
+    "id": "polio-wild-cases",
+    "slug": "polio-cases",
+    "question": "Has polio been eradicated?",
+    "indicator": "Polio (wild virus)",
+    "value": "≈12 cases (2023)",
+    "value_num": 12,
+    "unit": "cases",
+    "as_of": 2023,
+    "period": {
+      "from": 1988,
+      "to": 2023
+    },
+    "change": "−99.9% since 1988",
+    "direction_better": "lower",
+    "why": "Vaccination narrowed endemic spread to two countries, but reaching zero means holding coverage.",
+    "chart": null,
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/polio",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/polio-cases"
+  },
+  {
+    "id": "safe-drinking-water",
+    "slug": "safe-drinking-water",
+    "question": "How many people have safe drinking water?",
+    "indicator": "Safe drinking water at home",
+    "value": "74%",
+    "value_num": 74,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 2000,
+      "to": 2024
+    },
+    "change": "+2.2B people since 2000",
+    "direction_better": "higher",
+    "why": "Safe water at home cuts intestinal infections, one of the leading causes of child mortality.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 62
+      },
+      {
+        "year": 2015,
+        "value": 68
+      },
+      {
+        "year": 2020,
+        "value": 71
+      },
+      {
+        "year": 2022,
+        "value": 73
+      },
+      {
+        "year": 2024,
+        "value": 74
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/clean-water-sanitation",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/safe-drinking-water"
+  },
+  {
+    "id": "solar-wind-electricity-share",
+    "slug": "renewable-electricity-share",
+    "question": "How much electricity comes from solar and wind?",
+    "indicator": "Share of electricity from solar and wind",
+    "value": "13.4%",
+    "value_num": 13.4,
+    "unit": "percent",
+    "as_of": 2023,
+    "period": {
+      "from": 2000,
+      "to": 2023
+    },
+    "change": "from 0.2% in 2000",
+    "direction_better": "higher",
+    "why": "Solar and wind already supply about 13% of the world's electricity, up from 0.2% in 2000, but most of it still comes from fossil fuels, so clean energy is far from done.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 0.2
+      },
+      {
+        "year": 2010,
+        "value": 1.7
+      },
+      {
+        "year": 2015,
+        "value": 4.6
+      },
+      {
+        "year": 2018,
+        "value": 7.4
+      },
+      {
+        "year": 2020,
+        "value": 9.3
+      },
+      {
+        "year": 2023,
+        "value": 13.4
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/renewable-energy",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/renewable-electricity-share"
+  },
+  {
+    "id": "tuberculosis-death-rate",
+    "slug": "tuberculosis-deaths",
+    "question": "Are tuberculosis deaths falling?",
+    "indicator": "Tuberculosis death rate",
+    "value": "14.7 per 100,000",
+    "value_num": 14.7,
+    "unit": "per_100000",
+    "as_of": 2024,
+    "period": {
+      "from": 2000,
+      "to": 2024
+    },
+    "change": "−69% since 2000",
+    "direction_better": "lower",
+    "why": "Standardized diagnosis, free rifampicin-based treatment, and combined TB and HIV care scaled across low-income countries cut the death rate by roughly two-thirds since 2000. Yet tuberculosis still kills about 1.2 million people a year, and drug-resistant strains and millions of undiagnosed cases remain.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 47.7
+      },
+      {
+        "year": 2008,
+        "value": 34.1
+      },
+      {
+        "year": 2015,
+        "value": 23.2
+      },
+      {
+        "year": 2020,
+        "value": 17.6
+      },
+      {
+        "year": 2024,
+        "value": 14.7
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (WHO)",
+      "url": "https://ourworldindata.org/grapher/tuberculosis-death-rate",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/tuberculosis-deaths"
+  },
+  {
+    "id": "mean-years-schooling",
+    "slug": "years-of-schooling",
+    "question": "Are people getting more schooling?",
+    "indicator": "Years of schooling (adults)",
+    "value": "8.8 years",
+    "value_num": 8.8,
+    "unit": "years",
+    "as_of": 2023,
+    "period": {
+      "from": 1990,
+      "to": 2023
+    },
+    "change": "+2.9 years since 1990",
+    "direction_better": "higher",
+    "why": "The spread of compulsory public schooling and better-educated younger cohorts replacing older ones lifted the world average from 5.9 years in 1990 to 8.8. Yet that is still short of a completed secondary education, and in the poorest regions adults average only about 6 years.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 5.9
+      },
+      {
+        "year": 2000,
+        "value": 7
+      },
+      {
+        "year": 2010,
+        "value": 7.8
+      },
+      {
+        "year": 2015,
+        "value": 8.2
+      },
+      {
+        "year": 2020,
+        "value": 8.7
+      },
+      {
+        "year": 2023,
+        "value": 8.8
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (UNDP, HDR 2025)",
+      "url": "https://ourworldindata.org/grapher/average-years-of-schooling",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/years-of-schooling"
+  }
+]
