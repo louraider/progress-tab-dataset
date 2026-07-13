@@ -50,17 +50,17 @@
     "slug": "electricity-access",
     "question": "How many people have electricity?",
     "indicator": "Access to electricity",
-    "value": "91%",
-    "value_num": 91,
+    "value": "92%",
+    "value_num": 92,
     "unit": "percent",
-    "as_of": 2022,
+    "as_of": 2023,
     "period": {
       "from": 2000,
-      "to": 2022
+      "to": 2023
     },
-    "change": "+13 pts since 2000",
+    "change": "+14 pts since 2000",
     "direction_better": "higher",
-    "why": "Electricity at home brings light to study by, cooling for medicine, and a connection to the world.",
+    "why": "Electricity at home brings light to study by, cooling for medicine, and a connection to the world — yet as of 2023, 666 million people still lack electricity, concentrated in Sub-Saharan Africa.",
     "chart": [
       {
         "year": 2000,
@@ -85,13 +85,17 @@
       {
         "year": 2021,
         "value": 91
+      },
+      {
+        "year": 2023,
+        "value": 92
       }
     ],
     "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/energy-access",
+      "name": "Our World in Data (World Bank SDG7.1.1 Electrification Dataset)",
+      "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity",
       "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/electricity-access"
   },
@@ -100,17 +104,17 @@
     "slug": "adult-literacy",
     "question": "Is global literacy rising?",
     "indicator": "Adult literacy",
-    "value": "87%",
-    "value_num": 87,
+    "value": "88%",
+    "value_num": 88,
     "unit": "percent",
-    "as_of": 2020,
+    "as_of": 2024,
     "period": {
       "from": 1990,
-      "to": 2020
+      "to": 2024
     },
-    "change": "+12 pts since 1990",
+    "change": "+13 pts since 1990",
     "direction_better": "higher",
-    "why": "Reading is the precondition for learning, work, and using public services.",
+    "why": "Reading is the precondition for learning, work, and using public services. The global aggregate partly relies on modeled or carried-forward country estimates where annual surveys don't exist, so progress is real but not annually measured everywhere.",
     "chart": [
       {
         "year": 1990,
@@ -135,15 +139,77 @@
       {
         "year": 2020,
         "value": 87
+      },
+      {
+        "year": 2021,
+        "value": 87
+      },
+      {
+        "year": 2022,
+        "value": 87
+      },
+      {
+        "year": 2023,
+        "value": 88
+      },
+      {
+        "year": 2024,
+        "value": 88
       }
     ],
     "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/literacy",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "name": "World Bank (World Development Indicators, UNESCO Institute for Statistics data)",
+      "url": "https://data.worldbank.org/indicator/SE.ADT.LITR.ZS",
+      "license": "CC-BY 4.0 (World Bank Open Data)",
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/adult-literacy"
+  },
+  {
+    "id": "adult-obesity-rate",
+    "slug": "adult-obesity",
+    "question": "Is adult obesity rising?",
+    "indicator": "Adult obesity worldwide",
+    "value": "15.4%",
+    "value_num": 15.4,
+    "unit": "percent",
+    "as_of": 2022,
+    "period": {
+      "from": 1990,
+      "to": 2022
+    },
+    "change": "+129% since 1990",
+    "direction_better": "lower",
+    "why": "Adult obesity has been climbing for over three decades with no sign of slowing: age-standardised prevalence among adults 18+ rose from 6.7% in 1990 to 15.4% in 2022 — nearly 880 million people. But for the first time, this is tracked through consistent global monitoring (222 million children, adolescents, and adults measured across 200 countries) and matched by genuinely effective medical treatments that didn’t exist a decade ago.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 6.7
+      },
+      {
+        "year": 2000,
+        "value": 8.7
+      },
+      {
+        "year": 2010,
+        "value": 11.5
+      },
+      {
+        "year": 2016,
+        "value": 13.3
+      },
+      {
+        "year": 2022,
+        "value": 15.4
+      }
+    ],
+    "source": {
+      "name": "NCD Risk Factor Collaboration (NCD-RisC) / WHO Global Health Observatory",
+      "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-obesity-among-adults-bmi-=-30-(age-standardized-estimate)-(-)",
+      "license": "CC BY-NC-SA 3.0 IGO (World Health Organization)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/adult-obesity"
   },
   {
     "id": "basic-sanitation-access",
@@ -203,14 +269,14 @@
     "value": "37 per 1,000",
     "value_num": 37,
     "unit": "per_1000",
-    "as_of": 2022,
+    "as_of": 2024,
     "period": {
       "from": 1960,
-      "to": 2022
+      "to": 2024
     },
     "change": "−60% since 1990",
     "direction_better": "lower",
-    "why": "Most of these deaths came from infections and birth complications now prevented by vaccines, antibiotics, and clean water.",
+    "why": "Most of these deaths came from infections and birth complications now prevented by vaccines, antibiotics, and clean water — though the pace of reduction has slowed since 2015, from 3.9% to 1.5% a year.",
     "chart": [
       {
         "year": 1960,
@@ -239,15 +305,69 @@
       {
         "year": 2022,
         "value": 37
+      },
+      {
+        "year": 2024,
+        "value": 37
       }
     ],
     "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/child-mortality",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "name": "UN IGME (UNICEF/WHO/World Bank Group/UN DESA)",
+      "url": "https://data.unicef.org/resources/levels-and-trends-in-child-mortality-2025/",
+      "license": "UN IGME/UNICEF data: free to use with attribution (UNICEF, WHO, World Bank Group, UN DESA Population Division)",
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/child-mortality"
+  },
+  {
+    "id": "child-stunting-rate",
+    "slug": "child-stunting",
+    "question": "Is child stunting falling?",
+    "indicator": "Child stunting (under 5)",
+    "value": "23.2%",
+    "value_num": 23.2,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 2000,
+      "to": 2024
+    },
+    "change": "−9.9 pts since 2000",
+    "direction_better": "lower",
+    "why": "Better access to food, healthcare, and clean water cut the share of children under 5 with stunting — chronic malnutrition reflected in low height-for-age — from about 33% in 2000 to 23.2% in 2024. But that’s the highest reading in four years: after bottoming out at 22.4% in 2020-2021, the rate has crept back up, and roughly 150 million children worldwide are still affected by it.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 33.1
+      },
+      {
+        "year": 2010,
+        "value": 27.9
+      },
+      {
+        "year": 2015,
+        "value": 24.6
+      },
+      {
+        "year": 2020,
+        "value": 22.4
+      },
+      {
+        "year": 2022,
+        "value": 22.6
+      },
+      {
+        "year": 2024,
+        "value": 23.2
+      }
+    ],
+    "source": {
+      "name": "UNICEF/WHO/World Bank Group (Joint Child Malnutrition Estimates)",
+      "url": "https://data.who.int/indicators/i/A5A7413/5F8A486",
+      "license": "CC BY-NC-SA 3.0 IGO (UNICEF/WHO/World Bank Group Joint Child Malnutrition Estimates, via WHO Global Health Observatory)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/child-stunting"
   },
   {
     "id": "child-labour-rate",
@@ -362,17 +482,17 @@
     "slug": "solar-power-cost",
     "question": "Is solar power getting cheaper?",
     "indicator": "Cost of solar electricity",
-    "value": "0.044 $/kWh",
-    "value_num": 0.044,
+    "value": "0.043 $/kWh",
+    "value_num": 0.043,
     "unit": "usd_per_kwh",
-    "as_of": 2023,
+    "as_of": 2024,
     "period": {
       "from": 2010,
-      "to": 2023
+      "to": 2024
     },
     "change": "−90% since 2010",
     "direction_better": "lower",
-    "why": "When solar power is cheaper than fossil fuels, leaving coal becomes an economic choice, not only an environmental one.",
+    "why": "When solar power is cheaper than fossil fuels, leaving coal becomes an economic choice, not only an environmental one — though 2024 brought IRENA's first year-on-year uptick in LCOE in a decade, the long-run decline since 2010 (−90%) remains unprecedented.",
     "chart": [
       {
         "year": 2010,
@@ -396,14 +516,18 @@
       },
       {
         "year": 2023,
-        "value": 0.044
+        "value": 0.0427
+      },
+      {
+        "year": 2024,
+        "value": 0.043
       }
     ],
     "source": {
-      "name": "IRENA, Renewable Power Generation Costs in 2023",
-      "url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
-      "license": "© IRENA 2024, attribution required (see source)",
-      "accessed": "2026-06-30"
+      "name": "IRENA, Renewable Power Generation Costs in 2024",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf",
+      "license": "© IRENA 2025, attribution required (see source)",
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/solar-power-cost"
   },
@@ -415,7 +539,7 @@
     "value": "around 10× lower than a century ago",
     "value_num": null,
     "unit": null,
-    "as_of": 2020,
+    "as_of": "2020s",
     "period": {
       "from": 1920,
       "to": 2020
@@ -423,7 +547,52 @@
     "change": "−90%+ since the 1920s",
     "direction_better": "lower",
     "why": "Early-warning systems, sturdier housing, and organized evacuation save most of those who once would have died.",
-    "chart": null,
+    "chart": [
+      {
+        "year": 1920,
+        "value": 523942
+      },
+      {
+        "year": 1930,
+        "value": 464277
+      },
+      {
+        "year": 1940,
+        "value": 386725
+      },
+      {
+        "year": 1950,
+        "value": 61465
+      },
+      {
+        "year": 1960,
+        "value": 325904
+      },
+      {
+        "year": 1970,
+        "value": 98906
+      },
+      {
+        "year": 1980,
+        "value": 75210
+      },
+      {
+        "year": 1990,
+        "value": 43341
+      },
+      {
+        "year": 2000,
+        "value": 78095
+      },
+      {
+        "year": 2010,
+        "value": 45432
+      },
+      {
+        "year": 2020,
+        "value": 48067
+      }
+    ],
     "source": {
       "name": "Our World in Data",
       "url": "https://ourworldindata.org/natural-disasters",
@@ -448,7 +617,36 @@
     "change": "≈2M/year in the 1960s → 0",
     "direction_better": "lower",
     "why": "A disease that killed around 300 million people in the 20th century vanished completely through a global vaccination campaign.",
-    "chart": null,
+    "chart": [
+      {
+        "year": 1962,
+        "value": 2000000
+      },
+      {
+        "year": 1967,
+        "value": 2000000
+      },
+      {
+        "year": 1971,
+        "value": 1000000
+      },
+      {
+        "year": 1974,
+        "value": 400000
+      },
+      {
+        "year": 1975,
+        "value": 100000
+      },
+      {
+        "year": 1977,
+        "value": 0
+      },
+      {
+        "year": 1980,
+        "value": 0
+      }
+    ],
     "source": {
       "name": "Our World in Data",
       "url": "https://ourworldindata.org/smallpox",
@@ -512,73 +710,168 @@
     "slug": "extreme-poverty",
     "question": "Is extreme poverty falling?",
     "indicator": "Extreme poverty worldwide",
-    "value": "8.5%",
-    "value_num": 8.5,
+    "value": "10.4%",
+    "value_num": 10.4,
     "unit": "percent",
-    "as_of": 2019,
+    "as_of": 2024,
     "period": {
       "from": 1990,
-      "to": 2019
+      "to": 2024
     },
-    "change": "−78% since 1990",
+    "change": "−76% since 1990",
     "direction_better": "lower",
-    "why": "Growing economies and wider access to work and social support lifted hundreds of millions out of poverty. Yet about 650 million people still live on less than $2.15 a day, and it remains one of the world's biggest risks.",
+    "why": "Growing economies and wider access to work and social support lifted hundreds of millions out of poverty. Yet about 847 million people still live on less than $3.00 a day (the World Bank's new poverty line as of 2025, replacing $2.15), and since 2019-2020 the pace of decline has clearly slowed, hit by COVID and a worsening trend in Sub-Saharan Africa.",
     "chart": [
       {
         "year": 1990,
-        "value": 38
+        "value": 43.4
       },
       {
         "year": 1999,
-        "value": 29
+        "value": 37.3
       },
       {
         "year": 2008,
-        "value": 18
+        "value": 24.1
       },
       {
         "year": 2013,
-        "value": 11.5
+        "value": 15.5
       },
       {
         "year": 2017,
-        "value": 9.3
+        "value": 11.8
       },
       {
         "year": 2019,
-        "value": 8.5
+        "value": 10.8
+      },
+      {
+        "year": 2024,
+        "value": 10.4
       }
     ],
     "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/poverty",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "name": "World Bank Poverty and Inequality Platform, via Our World in Data",
+      "url": "https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty",
+      "license": "CC-BY 4.0 (Our World in Data); underlying data: World Bank Poverty and Inequality Platform",
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/extreme-poverty"
+  },
+  {
+    "id": "female-labor-force-participation",
+    "slug": "female-labor-force",
+    "question": "What share of the world’s women are in the labor force?",
+    "indicator": "Female labor force participation",
+    "value": "55.1%",
+    "value_num": 55.1,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 1990,
+      "to": 2024
+    },
+    "change": "56% in 1990 → 55.1% in 2024",
+    "direction_better": "higher",
+    "why": "The rate has recovered from its pandemic-era low (52% in 2020) — but over 34 years, women’s labor force participation has barely moved: 55% today versus 56% in 1990, even as education and economies changed dramatically over the same span.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 56
+      },
+      {
+        "year": 2000,
+        "value": 55.8
+      },
+      {
+        "year": 2010,
+        "value": 54.2
+      },
+      {
+        "year": 2019,
+        "value": 53.7
+      },
+      {
+        "year": 2020,
+        "value": 52.4
+      },
+      {
+        "year": 2024,
+        "value": 55.1
+      }
+    ],
+    "source": {
+      "name": "World Bank Gender Data Portal (ILO modelled estimates)",
+      "url": "https://data.worldbank.org/indicator/SL.TLF.ACTI.FE.ZS",
+      "license": "CC BY-4.0 (World Bank)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/female-labor-force"
   },
   {
     "id": "guinea-worm-cases",
     "slug": "guinea-worm-eradication",
     "question": "Is Guinea worm disease almost gone?",
     "indicator": "Guinea worm disease",
-    "value": "14 cases (2023)",
-    "value_num": 14,
+    "value": "10 cases (2025, provisional)",
+    "value_num": 10,
     "unit": "cases",
-    "as_of": 2023,
+    "as_of": 2025,
     "period": {
       "from": 1986,
-      "to": 2023
+      "to": 2025
     },
     "change": "from ≈3.5M in 1986",
     "direction_better": "lower",
-    "why": "The disease is stopped not by drugs but by filtering drinking water and controlling sources of infection.",
-    "chart": null,
+    "why": "The disease is stopped not by drugs but by filtering drinking water and controlling sources of infection — 2024 saw a small uptick to 15 cases before falling to 10 in 2025: the trend continues downward, but not in a straight line.",
+    "chart": [
+      {
+        "year": 1986,
+        "value": 3500000
+      },
+      {
+        "year": 1988,
+        "value": 781219
+      },
+      {
+        "year": 1993,
+        "value": 221055
+      },
+      {
+        "year": 2000,
+        "value": 75223
+      },
+      {
+        "year": 2008,
+        "value": 4619
+      },
+      {
+        "year": 2012,
+        "value": 542
+      },
+      {
+        "year": 2016,
+        "value": 25
+      },
+      {
+        "year": 2023,
+        "value": 14
+      },
+      {
+        "year": 2024,
+        "value": 15
+      },
+      {
+        "year": 2025,
+        "value": 10
+      }
+    ],
     "source": {
       "name": "The Carter Center",
-      "url": "https://www.cartercenter.org/health/guinea_worm/case-totals.html",
+      "url": "https://www.cartercenter.org/news/guinea-worm-announcement/",
       "license": "The Carter Center, see source for terms",
-      "accessed": "2026-06-30"
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/guinea-worm-eradication"
   },
@@ -637,17 +930,17 @@
     "slug": "internet-access",
     "question": "How many people have internet access?",
     "indicator": "Internet access",
-    "value": "67%",
-    "value_num": 67,
+    "value": "74%",
+    "value_num": 74,
     "unit": "percent",
-    "as_of": 2023,
+    "as_of": 2025,
     "period": {
       "from": 1995,
-      "to": 2023
+      "to": 2025
     },
-    "change": "from <1% in 1995",
+    "change": "from <1% in 1995 to 74% in 2025",
     "direction_better": "higher",
-    "why": "Getting online opens education, banking, and the job market to people far from big cities.",
+    "why": "Getting online opens education, banking, and the job market to people far from big cities — yet roughly 2.2 billion people (26%) are still offline, concentrated in Africa (~38% on average).",
     "chart": [
       {
         "year": 1995,
@@ -676,13 +969,21 @@
       {
         "year": 2023,
         "value": 67
+      },
+      {
+        "year": 2024,
+        "value": 71
+      },
+      {
+        "year": 2025,
+        "value": 74
       }
     ],
     "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/internet",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "name": "ITU, Facts and Figures 2025 (via Our World in Data / World Bank)",
+      "url": "https://www.itu.int/itu-d/reports/statistics/2025/10/15/ff25-internet-use/",
+      "license": "CC-BY 4.0 (Our World in Data) / ITU data openly available for non-commercial use with attribution",
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/internet-access"
   },
@@ -799,46 +1100,196 @@
     "slug": "maternal-mortality",
     "question": "Is maternal mortality falling?",
     "indicator": "Maternal mortality",
-    "value": "223 per 100,000",
-    "value_num": 223,
+    "value": "197 per 100,000",
+    "value_num": 197,
     "unit": "per_100000",
-    "as_of": 2020,
+    "as_of": 2023,
     "period": {
       "from": 2000,
-      "to": 2020
+      "to": 2023
     },
-    "change": "−35% since 2000",
+    "change": "−40% since 2000",
     "direction_better": "lower",
-    "why": "Skilled care during birth and access to emergency help make the most dangerous complications manageable. Yet progress has nearly stalled since 2015: about 287,000 women a year (2020) still die from largely preventable causes.",
+    "why": "Skilled care during birth and access to emergency help make the most dangerous complications manageable. The global rate for 2023 is 197 per 100,000 live births, but progress has slowed to roughly 0.5% a year since 2015.",
     "chart": [
       {
         "year": 2000,
-        "value": 342
+        "value": 328
       },
       {
         "year": 2005,
-        "value": 313
+        "value": 283
       },
       {
         "year": 2010,
-        "value": 282
+        "value": 253
       },
       {
         "year": 2015,
-        "value": 227
+        "value": 228
       },
       {
         "year": 2020,
-        "value": 223
+        "value": 211
+      },
+      {
+        "year": 2023,
+        "value": 197
       }
     ],
     "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/maternal-mortality",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "name": "WHO Global Health Observatory / UN MMEIG",
+      "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/maternal-mortality-ratio-(per-100-000-live-births)",
+      "license": "CC BY-NC-SA 3.0 IGO (WHO/UN MMEIG, via WHO Global Health Observatory)",
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/maternal-mortality"
+  },
+  {
+    "id": "mobile-broadband-affordability",
+    "slug": "mobile-broadband-affordability",
+    "question": "How much of people’s income does mobile broadband cost worldwide?",
+    "indicator": "Mobile broadband affordability",
+    "value": "1.1%",
+    "value_num": 1.1,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 2021,
+      "to": 2024
+    },
+    "change": "from 1.9% of income in 2021 to 1.1% in 2024",
+    "direction_better": "lower",
+    "why": "Competition among carriers, cheaper smartphones, and affordability policy pushed the global median price of mobile broadband down from 1.9% of income per person in 2021 to 1.1% in 2024 — yet people in low-income countries still pay roughly 19 times that income share compared with high-income countries, and 68 of 208 countries still haven’t crossed the UN’s 2%-of-income affordability line.",
+    "chart": [
+      {
+        "year": 2021,
+        "value": 1.9
+      },
+      {
+        "year": 2022,
+        "value": 1.5
+      },
+      {
+        "year": 2023,
+        "value": 1.3
+      },
+      {
+        "year": 2024,
+        "value": 1.1
+      }
+    ],
+    "source": {
+      "name": "ITU, Measuring Digital Development: Affordability of ICT Services 2024",
+      "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-affordability-of-ict-services/",
+      "license": "ITU data openly available for non-commercial use with attribution",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/mobile-broadband-affordability"
+  },
+  {
+    "id": "neonatal-mortality-rate",
+    "slug": "neonatal-mortality",
+    "question": "Is neonatal mortality falling?",
+    "indicator": "Neonatal mortality (first 28 days)",
+    "value": "17 per 1,000",
+    "value_num": 17,
+    "unit": "per_1000",
+    "as_of": 2024,
+    "period": {
+      "from": 1990,
+      "to": 2024
+    },
+    "change": "−53% since 1990",
+    "direction_better": "lower",
+    "why": "Skilled birth attendance, basic antiseptics, and newborn care made the first weeks of life far safer — the global rate fell from 37 to 17 per 1,000 live births between 1990 and 2024. But progress here trails older children: neonatal deaths now make up 47% of all under-5 deaths, meaning 2.3 million newborns still die in their first month every year.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 37
+      },
+      {
+        "year": 2000,
+        "value": 30
+      },
+      {
+        "year": 2010,
+        "value": 22
+      },
+      {
+        "year": 2015,
+        "value": 19
+      },
+      {
+        "year": 2020,
+        "value": 18
+      },
+      {
+        "year": 2024,
+        "value": 17
+      }
+    ],
+    "source": {
+      "name": "UN IGME (UNICEF/WHO/World Bank Group/UN DESA), via Our World in Data",
+      "url": "https://ourworldindata.org/grapher/neonatal-mortality-wdi",
+      "license": "CC-BY 4.0 (Our World in Data); underlying data: UN Inter-agency Group for Child Mortality Estimation (UN IGME)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/neonatal-mortality"
+  },
+  {
+    "id": "new-hiv-infections-global",
+    "slug": "new-hiv-infections",
+    "question": "Are fewer people getting HIV?",
+    "indicator": "New HIV infections",
+    "value": "1.2 million (2025)",
+    "value_num": 1200000,
+    "unit": "cases",
+    "as_of": 2025,
+    "period": {
+      "from": 1995,
+      "to": 2025
+    },
+    "change": "−65% from 1995 peak",
+    "direction_better": "lower",
+    "why": "Condoms, antiretroviral treatment that makes the virus undetectable and non-transmissible, PrEP, and harm-reduction programs for people who inject drugs cut new HIV infections by 65% from the 1995 peak (3.5 million a year) — but progress has been uneven: the total barely moved from 2010 to 2015 (2.1 million both years), and the 1.2 million new infections in 2025 are still more than three times the UN’s 2025 target of under 370,000.",
+    "chart": [
+      {
+        "year": 1995,
+        "value": 3500000
+      },
+      {
+        "year": 2000,
+        "value": 2800000
+      },
+      {
+        "year": 2005,
+        "value": 2400000
+      },
+      {
+        "year": 2010,
+        "value": 2100000
+      },
+      {
+        "year": 2015,
+        "value": 2100000
+      },
+      {
+        "year": 2020,
+        "value": 1500000
+      },
+      {
+        "year": 2025,
+        "value": 1200000
+      }
+    ],
+    "source": {
+      "name": "UNAIDS, Global AIDS Update / Fact Sheet",
+      "url": "https://www.unaids.org/en/resources/fact-sheet",
+      "license": "UNAIDS web content, © UNAIDS 2026 (no open/CC license stated on the fact-sheet page; see source for terms)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/new-hiv-infections"
   },
   {
     "id": "ozone-depleting-substances",
@@ -848,20 +1299,49 @@
     "value": "−99%",
     "value_num": -99,
     "unit": "percent",
-    "as_of": 2024,
+    "as_of": 2021,
     "period": {
       "from": 1987,
-      "to": 2024
+      "to": 2021
     },
     "change": "layer recovery by ~2066",
     "direction_better": "lower",
     "why": "Nearly all ozone-depleting substances were phased out under the Montreal Protocol, a rare case of countries jointly banning a harmful chemical; less ultraviolet means less skin cancer and less harm to crops.",
-    "chart": null,
+    "chart": [
+      {
+        "year": 1989,
+        "value": 0
+      },
+      {
+        "year": 1994,
+        "value": -70
+      },
+      {
+        "year": 2000,
+        "value": -84
+      },
+      {
+        "year": 2005,
+        "value": -94.4
+      },
+      {
+        "year": 2010,
+        "value": -97.4
+      },
+      {
+        "year": 2015,
+        "value": -98.6
+      },
+      {
+        "year": 2021,
+        "value": -99
+      }
+    ],
     "source": {
       "name": "Our World in Data",
       "url": "https://ourworldindata.org/ozone-layer",
       "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/ozone-layer-recovery"
   },
@@ -870,25 +1350,104 @@
     "slug": "polio-cases",
     "question": "Has polio been eradicated?",
     "indicator": "Polio (wild virus)",
-    "value": "≈12 cases (2023)",
-    "value_num": 12,
+    "value": "≈40 cases (2025)",
+    "value_num": 40,
     "unit": "cases",
-    "as_of": 2023,
+    "as_of": 2025,
     "period": {
       "from": 1988,
-      "to": 2023
+      "to": 2025
     },
     "change": "−99.9% since 1988",
     "direction_better": "lower",
-    "why": "Vaccination narrowed endemic spread to two countries, but reaching zero means holding coverage.",
-    "chart": null,
+    "why": "Vaccination narrowed endemic spread to two countries, but reaching zero means holding coverage — 2023 (12 cases) was a record low, then cases jumped to 99 in 2024 (Afghanistan and Pakistan) before easing back to 40 in 2025, still 3x above the 2023 low.",
+    "chart": [
+      {
+        "year": 1988,
+        "value": 350000
+      },
+      {
+        "year": 2000,
+        "value": 719
+      },
+      {
+        "year": 2005,
+        "value": 1979
+      },
+      {
+        "year": 2010,
+        "value": 1352
+      },
+      {
+        "year": 2015,
+        "value": 74
+      },
+      {
+        "year": 2020,
+        "value": 140
+      },
+      {
+        "year": 2023,
+        "value": 12
+      },
+      {
+        "year": 2024,
+        "value": 99
+      },
+      {
+        "year": 2025,
+        "value": 40
+      }
+    ],
     "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/polio",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
+      "name": "WHO Polio IHR Emergency Committee (GPEI surveillance)",
+      "url": "https://www.who.int/news/item/04-03-2026-statement-of-the-forty-fourth-meeting-of-the-polio-ihr-emergency-committee",
+      "license": "WHO web content: CC BY-NC-SA 3.0 IGO (until OWID republishes the series under CC-BY 4.0)",
+      "accessed": "2026-07-06"
     },
     "page": "https://progresstab.app/facts/polio-cases"
+  },
+  {
+    "id": "road-traffic-death-rate",
+    "slug": "road-traffic-deaths",
+    "question": "Is the global road death rate falling?",
+    "indicator": "Road traffic death rate",
+    "value": "15 per 100,000",
+    "value_num": 15,
+    "unit": "per_100000",
+    "as_of": 2021,
+    "period": {
+      "from": 2010,
+      "to": 2021
+    },
+    "change": "−16% since 2010",
+    "direction_better": "lower",
+    "why": "The global road death rate fell from about 18 to 15 per 100,000 people between 2010 and 2021, even as world population grew by nearly a billion and the vehicle fleet more than doubled — the result of safer vehicles, speed limits, and better-engineered roads working together, not one breakthrough. Still, about 1.19 million people die on the roads every year (92% of them in low- and middle-income countries), only six countries (2022) meet WHO best-practice legislation across all five key risk factors, and the rate even ticked back up from 14 to 15 in 2021 after the pandemic-era dip.",
+    "chart": [
+      {
+        "year": 2010,
+        "value": 18
+      },
+      {
+        "year": 2016,
+        "value": 16
+      },
+      {
+        "year": 2020,
+        "value": 14
+      },
+      {
+        "year": 2021,
+        "value": 15
+      }
+    ],
+    "source": {
+      "name": "WHO Global Status Report on Road Safety 2023",
+      "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/estimated-road-traffic-death-rate-(per-100-000-population)",
+      "license": "CC BY-NC-SA 3.0 IGO (WHO Global Status Report on Road Safety 2023, via WHO Global Health Observatory)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/road-traffic-deaths"
   },
   {
     "id": "safe-drinking-water",
@@ -985,6 +1544,110 @@
       "accessed": "2026-06-30"
     },
     "page": "https://progresstab.app/facts/renewable-electricity-share"
+  },
+  {
+    "id": "ev-new-car-sales-share",
+    "slug": "electric-car-sales",
+    "question": "What share of new cars sold worldwide are electric?",
+    "indicator": "Share of new car sales that are electric",
+    "value": "25%",
+    "value_num": 25,
+    "unit": "percent",
+    "as_of": 2025,
+    "period": {
+      "from": 2018,
+      "to": 2025
+    },
+    "change": "from 2% in 2018 to 25% in 2025",
+    "direction_better": "higher",
+    "why": "One in four new cars sold worldwide in 2025 was electric — a rapid shift away from oil-powered transport. But the progress is uneven: China is near 55%, Europe 28%, while the US sits at only around 10% — and even that slipped, with US EV sales down 45% year-on-year in Q4 2025 after federal tax credits ended in September.",
+    "chart": [
+      {
+        "year": 2018,
+        "value": 2
+      },
+      {
+        "year": 2020,
+        "value": 5
+      },
+      {
+        "year": 2021,
+        "value": 9
+      },
+      {
+        "year": 2022,
+        "value": 14
+      },
+      {
+        "year": 2023,
+        "value": 18
+      },
+      {
+        "year": 2024,
+        "value": 20
+      },
+      {
+        "year": 2025,
+        "value": 25
+      }
+    ],
+    "source": {
+      "name": "IEA, Global EV Outlook 2026",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
+      "license": "IEA Terms of Use for Non-CC Material (attribution required)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/electric-car-sales"
+  },
+  {
+    "id": "tobacco-use-adults",
+    "slug": "tobacco-use",
+    "question": "Are fewer adults using tobacco worldwide?",
+    "indicator": "Tobacco use among adults",
+    "value": "20.9%",
+    "value_num": 20.9,
+    "unit": "percent",
+    "as_of": 2022,
+    "period": {
+      "from": 2000,
+      "to": 2022
+    },
+    "change": "−11.8 pts since 2000",
+    "direction_better": "lower",
+    "why": "Higher tobacco taxes, advertising bans, and pack warning labels under the WHO Framework Convention on Tobacco Control cut the share of adults who use tobacco from 32.7% in 2000 to 20.9% in 2022. Yet roughly one in five adults, about 1.2 billion people (WHO, 2024), still use tobacco, and it kills more than 7 million of them every year.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 32.7
+      },
+      {
+        "year": 2005,
+        "value": 29.3
+      },
+      {
+        "year": 2010,
+        "value": 26.4
+      },
+      {
+        "year": 2015,
+        "value": 23.9
+      },
+      {
+        "year": 2020,
+        "value": 21.7
+      },
+      {
+        "year": 2022,
+        "value": 20.9
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (WHO/UN SDG Indicators Database)",
+      "url": "https://ourworldindata.org/grapher/prevalence-of-tobacco-use-sdgs",
+      "license": "CC-BY 4.0 (Our World in Data); underlying data: WHO/UN SDG Indicators Database",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/tobacco-use"
   },
   {
     "id": "tuberculosis-death-rate",
