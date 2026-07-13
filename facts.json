@@ -1,103 +1,61 @@
 [
   {
-    "id": "clean-cooking-access",
-    "slug": "clean-cooking-access",
-    "question": "How many people have clean cooking?",
-    "indicator": "Access to clean cooking",
-    "value": "74.4%",
-    "value_num": 74.4,
-    "unit": "percent",
-    "as_of": 2023,
+    "id": "adolescent-birth-rate",
+    "slug": "teen-birth-rate",
+    "question": "How common are teenage births today?",
+    "indicator": "Teen births (ages 15-19)",
+    "value": "38.3 per 1,000",
+    "value_num": 38.3,
+    "unit": "per_1000",
+    "as_of": 2024,
     "period": {
-      "from": 2000,
-      "to": 2023
+      "from": 1960,
+      "to": 2024
     },
-    "change": "+25 pts since 2000",
-    "direction_better": "higher",
-    "why": "Urbanization, expanding LPG and electricity networks, and SDG7 access and fuel-subsidy programs raised the share with clean cooking fuels from 48.9% in 2000 to 74.4%. Yet about 2.1 billion people still cook over wood, charcoal, dung, or kerosene, and the resulting indoor air pollution remains a leading environmental health risk.",
+    "change": "−58% since 1960",
+    "direction_better": "lower",
+    "why": "Girls staying in school longer, wider access to contraception, and later marriage cut the global teen birth rate from 92 to 38 per 1,000. Still, about 12 million girls aged 15-19 give birth every year, mostly in lower-income countries, and in Sub-Saharan Africa the rate remains roughly 2.5 times the world average.",
     "chart": [
       {
+        "year": 1960,
+        "value": 92.1
+      },
+      {
+        "year": 1980,
+        "value": 77.7
+      },
+      {
+        "year": 1990,
+        "value": 74.9
+      },
+      {
         "year": 2000,
-        "value": 48.9
+        "value": 66.3
       },
       {
         "year": 2010,
-        "value": 57.2
+        "value": 52.2
       },
       {
         "year": 2015,
-        "value": 63.9
+        "value": 46
       },
       {
         "year": 2020,
-        "value": 71.1
+        "value": 40.2
       },
       {
-        "year": 2023,
-        "value": 74.4
+        "year": 2024,
+        "value": 38.3
       }
     ],
     "source": {
-      "name": "World Bank (WHO Household Energy DB)",
-      "url": "https://data.worldbank.org/indicator/EG.CFT.ACCS.ZS?locations=1W",
-      "license": "CC-BY 4.0 (World Bank Open Data)",
-      "accessed": "2026-06-30"
+      "name": "World Bank (UN Population Division estimates)",
+      "url": "https://data.worldbank.org/indicator/SP.ADO.TFRT",
+      "license": "CC-BY 4.0 (World Bank Open Data; UN Population Division estimates)",
+      "accessed": "2026-07-13"
     },
-    "page": "https://progresstab.app/facts/clean-cooking-access"
-  },
-  {
-    "id": "electricity-access",
-    "slug": "electricity-access",
-    "question": "How many people have electricity?",
-    "indicator": "Access to electricity",
-    "value": "92%",
-    "value_num": 92,
-    "unit": "percent",
-    "as_of": 2023,
-    "period": {
-      "from": 2000,
-      "to": 2023
-    },
-    "change": "+14 pts since 2000",
-    "direction_better": "higher",
-    "why": "Electricity at home brings light to study by, cooling for medicine, and a connection to the world — yet as of 2023, 666 million people still lack electricity, concentrated in Sub-Saharan Africa.",
-    "chart": [
-      {
-        "year": 2000,
-        "value": 78
-      },
-      {
-        "year": 2005,
-        "value": 80
-      },
-      {
-        "year": 2010,
-        "value": 83
-      },
-      {
-        "year": 2014,
-        "value": 85
-      },
-      {
-        "year": 2018,
-        "value": 89
-      },
-      {
-        "year": 2021,
-        "value": 91
-      },
-      {
-        "year": 2023,
-        "value": 92
-      }
-    ],
-    "source": {
-      "name": "Our World in Data (World Bank SDG7.1.1 Electrification Dataset)",
-      "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-07-06"
-    },
-    "page": "https://progresstab.app/facts/electricity-access"
+    "page": "https://progresstab.app/facts/teen-birth-rate"
   },
   {
     "id": "adult-literacy-rate",
@@ -262,6 +220,60 @@
     "page": "https://progresstab.app/facts/sanitation-access"
   },
   {
+    "id": "child-labour-rate",
+    "slug": "child-labour",
+    "question": "Is child labour falling?",
+    "indicator": "Children in child labour",
+    "value": "7.8%",
+    "value_num": 7.8,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 2000,
+      "to": 2024
+    },
+    "change": "−8.2 pts since 2000",
+    "direction_better": "lower",
+    "why": "Free compulsory schooling, social-protection and cash-transfer schemes, and ratified ILO conventions backed by labour inspection cut the share of children in child labour from 16.0% in 2000 to 7.8%. Yet about 138 million children are still working, and progress slowed enough that the world missed its 2025 target to end it.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 16
+      },
+      {
+        "year": 2004,
+        "value": 14.2
+      },
+      {
+        "year": 2008,
+        "value": 13.6
+      },
+      {
+        "year": 2012,
+        "value": 10.6
+      },
+      {
+        "year": 2016,
+        "value": 9.6
+      },
+      {
+        "year": 2020,
+        "value": 9.6
+      },
+      {
+        "year": 2024,
+        "value": 7.8
+      }
+    ],
+    "source": {
+      "name": "ILO & UNICEF (Global Estimates 2024)",
+      "url": "https://data.unicef.org/resources/child-labour-global-estimates-2024/",
+      "license": "© ILO/UNICEF, attribution required (see source)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/child-labour"
+  },
+  {
     "id": "child-mortality-under-5",
     "slug": "child-mortality",
     "question": "Is child mortality falling?",
@@ -370,290 +382,50 @@
     "page": "https://progresstab.app/facts/child-stunting"
   },
   {
-    "id": "child-labour-rate",
-    "slug": "child-labour",
-    "question": "Is child labour falling?",
-    "indicator": "Children in child labour",
-    "value": "7.8%",
-    "value_num": 7.8,
+    "id": "clean-cooking-access",
+    "slug": "clean-cooking-access",
+    "question": "How many people have clean cooking?",
+    "indicator": "Access to clean cooking",
+    "value": "74.4%",
+    "value_num": 74.4,
     "unit": "percent",
-    "as_of": 2024,
+    "as_of": 2023,
     "period": {
       "from": 2000,
-      "to": 2024
+      "to": 2023
     },
-    "change": "−8.2 pts since 2000",
-    "direction_better": "lower",
-    "why": "Free compulsory schooling, social-protection and cash-transfer schemes, and ratified ILO conventions backed by labour inspection cut the share of children in child labour from 16.0% in 2000 to 7.8%. Yet about 138 million children are still working, and progress slowed enough that the world missed its 2025 target to end it.",
+    "change": "+25 pts since 2000",
+    "direction_better": "higher",
+    "why": "Urbanization, expanding LPG and electricity networks, and SDG7 access and fuel-subsidy programs raised the share with clean cooking fuels from 48.9% in 2000 to 74.4%. Yet about 2.1 billion people still cook over wood, charcoal, dung, or kerosene, and the resulting indoor air pollution remains a leading environmental health risk.",
     "chart": [
       {
         "year": 2000,
-        "value": 16
-      },
-      {
-        "year": 2004,
-        "value": 14.2
-      },
-      {
-        "year": 2008,
-        "value": 13.6
-      },
-      {
-        "year": 2012,
-        "value": 10.6
-      },
-      {
-        "year": 2016,
-        "value": 9.6
-      },
-      {
-        "year": 2020,
-        "value": 9.6
-      },
-      {
-        "year": 2024,
-        "value": 7.8
-      }
-    ],
-    "source": {
-      "name": "ILO & UNICEF (Global Estimates 2024)",
-      "url": "https://data.unicef.org/resources/child-labour-global-estimates-2024/",
-      "license": "© ILO/UNICEF, attribution required (see source)",
-      "accessed": "2026-06-30"
-    },
-    "page": "https://progresstab.app/facts/child-labour"
-  },
-  {
-    "id": "undernourishment-rate",
-    "slug": "world-hunger",
-    "question": "Is world hunger falling?",
-    "indicator": "Chronic hunger worldwide",
-    "value": "8.2%",
-    "value_num": 8.2,
-    "unit": "percent",
-    "as_of": 2024,
-    "period": {
-      "from": 2000,
-      "to": 2024
-    },
-    "change": "−4.5 pts since 2000",
-    "direction_better": "lower",
-    "why": "Rising farm productivity, incomes, and food-security and social-protection programs widened access to food, cutting the share from about 13% in 2000 to 8.2%. Yet roughly 1 in 12 people, about 673 million, still face chronic hunger, and the rate is still above its 7.5% pre-pandemic level.",
-    "chart": [
-      {
-        "year": 2000,
-        "value": 12.7
-      },
-      {
-        "year": 2005,
-        "value": 12
+        "value": 48.9
       },
       {
         "year": 2010,
-        "value": 8.7
+        "value": 57.2
       },
       {
         "year": 2015,
-        "value": 7.7
-      },
-      {
-        "year": 2019,
-        "value": 7.5
-      },
-      {
-        "year": 2021,
-        "value": 8.8
-      },
-      {
-        "year": 2024,
-        "value": 8.2
-      }
-    ],
-    "source": {
-      "name": "Our World in Data (FAO, SOFI 2025)",
-      "url": "https://ourworldindata.org/grapher/prevalence-of-undernourishment",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
-    },
-    "page": "https://progresstab.app/facts/world-hunger"
-  },
-  {
-    "id": "solar-electricity-cost",
-    "slug": "solar-power-cost",
-    "question": "Is solar power getting cheaper?",
-    "indicator": "Cost of solar electricity",
-    "value": "0.043 $/kWh",
-    "value_num": 0.043,
-    "unit": "usd_per_kwh",
-    "as_of": 2024,
-    "period": {
-      "from": 2010,
-      "to": 2024
-    },
-    "change": "−90% since 2010",
-    "direction_better": "lower",
-    "why": "When solar power is cheaper than fossil fuels, leaving coal becomes an economic choice, not only an environmental one — though 2024 brought IRENA's first year-on-year uptick in LCOE in a decade, the long-run decline since 2010 (−90%) remains unprecedented.",
-    "chart": [
-      {
-        "year": 2010,
-        "value": 0.46
-      },
-      {
-        "year": 2015,
-        "value": 0.21
-      },
-      {
-        "year": 2018,
-        "value": 0.1
+        "value": 63.9
       },
       {
         "year": 2020,
-        "value": 0.057
-      },
-      {
-        "year": 2022,
-        "value": 0.049
+        "value": 71.1
       },
       {
         "year": 2023,
-        "value": 0.0427
-      },
-      {
-        "year": 2024,
-        "value": 0.043
+        "value": 74.4
       }
     ],
     "source": {
-      "name": "IRENA, Renewable Power Generation Costs in 2024",
-      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf",
-      "license": "© IRENA 2025, attribution required (see source)",
-      "accessed": "2026-07-06"
-    },
-    "page": "https://progresstab.app/facts/solar-power-cost"
-  },
-  {
-    "id": "natural-disaster-deaths",
-    "slug": "natural-disaster-deaths",
-    "question": "Are deaths from natural disasters falling?",
-    "indicator": "Deaths from natural disasters",
-    "value": "around 10× lower than a century ago",
-    "value_num": null,
-    "unit": null,
-    "as_of": "2020s",
-    "period": {
-      "from": 1920,
-      "to": 2020
-    },
-    "change": "−90%+ since the 1920s",
-    "direction_better": "lower",
-    "why": "Early-warning systems, sturdier housing, and organized evacuation save most of those who once would have died.",
-    "chart": [
-      {
-        "year": 1920,
-        "value": 523942
-      },
-      {
-        "year": 1930,
-        "value": 464277
-      },
-      {
-        "year": 1940,
-        "value": 386725
-      },
-      {
-        "year": 1950,
-        "value": 61465
-      },
-      {
-        "year": 1960,
-        "value": 325904
-      },
-      {
-        "year": 1970,
-        "value": 98906
-      },
-      {
-        "year": 1980,
-        "value": 75210
-      },
-      {
-        "year": 1990,
-        "value": 43341
-      },
-      {
-        "year": 2000,
-        "value": 78095
-      },
-      {
-        "year": 2010,
-        "value": 45432
-      },
-      {
-        "year": 2020,
-        "value": 48067
-      }
-    ],
-    "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/natural-disasters",
-      "license": "CC-BY 4.0 (Our World in Data)",
+      "name": "World Bank (WHO Household Energy DB)",
+      "url": "https://data.worldbank.org/indicator/EG.CFT.ACCS.ZS?locations=1W",
+      "license": "CC-BY 4.0 (World Bank Open Data)",
       "accessed": "2026-06-30"
     },
-    "page": "https://progresstab.app/facts/natural-disaster-deaths"
-  },
-  {
-    "id": "smallpox-eradicated",
-    "slug": "smallpox-eradication",
-    "question": "Has smallpox been eradicated?",
-    "indicator": "Deaths from smallpox",
-    "value": "0 (eradicated 1980)",
-    "value_num": 0,
-    "unit": "deaths_per_year",
-    "as_of": 1980,
-    "period": {
-      "from": 1900,
-      "to": 1980
-    },
-    "change": "≈2M/year in the 1960s → 0",
-    "direction_better": "lower",
-    "why": "A disease that killed around 300 million people in the 20th century vanished completely through a global vaccination campaign.",
-    "chart": [
-      {
-        "year": 1962,
-        "value": 2000000
-      },
-      {
-        "year": 1967,
-        "value": 2000000
-      },
-      {
-        "year": 1971,
-        "value": 1000000
-      },
-      {
-        "year": 1974,
-        "value": 400000
-      },
-      {
-        "year": 1975,
-        "value": 100000
-      },
-      {
-        "year": 1977,
-        "value": 0
-      },
-      {
-        "year": 1980,
-        "value": 0
-      }
-    ],
-    "source": {
-      "name": "Our World in Data",
-      "url": "https://ourworldindata.org/smallpox",
-      "license": "CC-BY 4.0 (Our World in Data)",
-      "accessed": "2026-06-30"
-    },
-    "page": "https://progresstab.app/facts/smallpox-eradication"
+    "page": "https://progresstab.app/facts/clean-cooking-access"
   },
   {
     "id": "dtp3-vaccine-coverage",
@@ -704,6 +476,114 @@
       "accessed": "2026-06-30"
     },
     "page": "https://progresstab.app/facts/vaccination-coverage"
+  },
+  {
+    "id": "electricity-access",
+    "slug": "electricity-access",
+    "question": "How many people have electricity?",
+    "indicator": "Access to electricity",
+    "value": "92%",
+    "value_num": 92,
+    "unit": "percent",
+    "as_of": 2023,
+    "period": {
+      "from": 2000,
+      "to": 2023
+    },
+    "change": "+14 pts since 2000",
+    "direction_better": "higher",
+    "why": "Electricity at home brings light to study by, cooling for medicine, and a connection to the world — yet as of 2023, 666 million people still lack electricity, concentrated in Sub-Saharan Africa.",
+    "chart": [
+      {
+        "year": 2000,
+        "value": 78
+      },
+      {
+        "year": 2005,
+        "value": 80
+      },
+      {
+        "year": 2010,
+        "value": 83
+      },
+      {
+        "year": 2014,
+        "value": 85
+      },
+      {
+        "year": 2018,
+        "value": 89
+      },
+      {
+        "year": 2021,
+        "value": 91
+      },
+      {
+        "year": 2023,
+        "value": 92
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (World Bank SDG7.1.1 Electrification Dataset)",
+      "url": "https://ourworldindata.org/grapher/share-of-the-population-with-access-to-electricity",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-07-06"
+    },
+    "page": "https://progresstab.app/facts/electricity-access"
+  },
+  {
+    "id": "ev-new-car-sales-share",
+    "slug": "electric-car-sales",
+    "question": "What share of new cars sold worldwide are electric?",
+    "indicator": "Share of new car sales that are electric",
+    "value": "25%",
+    "value_num": 25,
+    "unit": "percent",
+    "as_of": 2025,
+    "period": {
+      "from": 2018,
+      "to": 2025
+    },
+    "change": "from 2% in 2018 to 25% in 2025",
+    "direction_better": "higher",
+    "why": "One in four new cars sold worldwide in 2025 was electric — a rapid shift away from oil-powered transport. But the progress is uneven: China is near 55%, Europe 28%, while the US sits at only around 10% — and even that slipped, with US EV sales down 45% year-on-year in Q4 2025 after federal tax credits ended in September.",
+    "chart": [
+      {
+        "year": 2018,
+        "value": 2
+      },
+      {
+        "year": 2020,
+        "value": 5
+      },
+      {
+        "year": 2021,
+        "value": 9
+      },
+      {
+        "year": 2022,
+        "value": 14
+      },
+      {
+        "year": 2023,
+        "value": 18
+      },
+      {
+        "year": 2024,
+        "value": 20
+      },
+      {
+        "year": 2025,
+        "value": 25
+      }
+    ],
+    "source": {
+      "name": "IEA, Global EV Outlook 2026",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
+      "license": "IEA Terms of Use for Non-CC Material (attribution required)",
+      "accessed": "2026-07-07"
+    },
+    "page": "https://progresstab.app/facts/electric-car-sales"
   },
   {
     "id": "extreme-poverty-rate",
@@ -1146,6 +1026,110 @@
     "page": "https://progresstab.app/facts/maternal-mortality"
   },
   {
+    "id": "mean-years-schooling",
+    "slug": "years-of-schooling",
+    "question": "Are people getting more schooling?",
+    "indicator": "Years of schooling (adults)",
+    "value": "8.8 years",
+    "value_num": 8.8,
+    "unit": "years",
+    "as_of": 2023,
+    "period": {
+      "from": 1990,
+      "to": 2023
+    },
+    "change": "+2.9 years since 1990",
+    "direction_better": "higher",
+    "why": "The spread of compulsory public schooling and better-educated younger cohorts replacing older ones lifted the world average from 5.9 years in 1990 to 8.8. Yet that is still short of a completed secondary education, and in the poorest regions adults average only about 6 years.",
+    "chart": [
+      {
+        "year": 1990,
+        "value": 5.9
+      },
+      {
+        "year": 2000,
+        "value": 7
+      },
+      {
+        "year": 2010,
+        "value": 7.8
+      },
+      {
+        "year": 2015,
+        "value": 8.2
+      },
+      {
+        "year": 2020,
+        "value": 8.7
+      },
+      {
+        "year": 2023,
+        "value": 8.8
+      }
+    ],
+    "source": {
+      "name": "Our World in Data (UNDP, HDR 2025)",
+      "url": "https://ourworldindata.org/grapher/average-years-of-schooling",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/years-of-schooling"
+  },
+  {
+    "id": "measles-vaccine-coverage",
+    "slug": "measles-vaccination-rate",
+    "question": "How many children get the measles vaccine?",
+    "indicator": "Measles vaccination (1-year-olds)",
+    "value": "84.3%",
+    "value_num": 84.3,
+    "unit": "percent",
+    "as_of": 2024,
+    "period": {
+      "from": 1980,
+      "to": 2024
+    },
+    "change": "from 13% (1980) to 84%",
+    "direction_better": "higher",
+    "why": "Routine immunization programs raised first-dose measles coverage from 13% of the world's one-year-olds to 84%. But measles is contagious enough to need about 95%: coverage dipped during COVID and has not fully recovered, and outbreaks have returned where it slipped.",
+    "chart": [
+      {
+        "year": 1980,
+        "value": 12.9
+      },
+      {
+        "year": 1990,
+        "value": 72.7
+      },
+      {
+        "year": 2000,
+        "value": 71.5
+      },
+      {
+        "year": 2010,
+        "value": 83.9
+      },
+      {
+        "year": 2019,
+        "value": 86.2
+      },
+      {
+        "year": 2021,
+        "value": 82
+      },
+      {
+        "year": 2024,
+        "value": 84.3
+      }
+    ],
+    "source": {
+      "name": "World Bank (WHO/UNICEF WUENIC estimates)",
+      "url": "https://data.worldbank.org/indicator/SH.IMM.MEAS",
+      "license": "CC-BY 4.0 (World Bank Open Data; WHO/UNICEF WUENIC estimates)",
+      "accessed": "2026-07-13"
+    },
+    "page": "https://progresstab.app/facts/measles-vaccination-rate"
+  },
+  {
     "id": "mobile-broadband-affordability",
     "slug": "mobile-broadband-affordability",
     "question": "How much of people’s income does mobile broadband cost worldwide?",
@@ -1186,6 +1170,76 @@
       "accessed": "2026-07-07"
     },
     "page": "https://progresstab.app/facts/mobile-broadband-affordability"
+  },
+  {
+    "id": "natural-disaster-deaths",
+    "slug": "natural-disaster-deaths",
+    "question": "Are deaths from natural disasters falling?",
+    "indicator": "Deaths from natural disasters",
+    "value": "around 10× lower than a century ago",
+    "value_num": null,
+    "unit": null,
+    "as_of": 2020,
+    "period": {
+      "from": 1920,
+      "to": 2020
+    },
+    "change": "−90%+ since the 1920s",
+    "direction_better": "lower",
+    "why": "Early-warning systems, sturdier housing, and organized evacuation save most of those who once would have died.",
+    "chart": [
+      {
+        "year": 1920,
+        "value": 523942
+      },
+      {
+        "year": 1930,
+        "value": 464277
+      },
+      {
+        "year": 1940,
+        "value": 386725
+      },
+      {
+        "year": 1950,
+        "value": 61465
+      },
+      {
+        "year": 1960,
+        "value": 325904
+      },
+      {
+        "year": 1970,
+        "value": 98906
+      },
+      {
+        "year": 1980,
+        "value": 75210
+      },
+      {
+        "year": 1990,
+        "value": 43341
+      },
+      {
+        "year": 2000,
+        "value": 78095
+      },
+      {
+        "year": 2010,
+        "value": 45432
+      },
+      {
+        "year": 2020,
+        "value": 48067
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/natural-disasters",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/natural-disaster-deaths"
   },
   {
     "id": "neonatal-mortality-rate",
@@ -1496,6 +1550,114 @@
     "page": "https://progresstab.app/facts/safe-drinking-water"
   },
   {
+    "id": "smallpox-eradicated",
+    "slug": "smallpox-eradication",
+    "question": "Has smallpox been eradicated?",
+    "indicator": "Deaths from smallpox",
+    "value": "0 (eradicated 1980)",
+    "value_num": 0,
+    "unit": "deaths_per_year",
+    "as_of": 1980,
+    "period": {
+      "from": 1900,
+      "to": 1980
+    },
+    "change": "≈2M/year in the 1960s → 0",
+    "direction_better": "lower",
+    "why": "A disease that killed around 300 million people in the 20th century vanished completely through a global vaccination campaign.",
+    "chart": [
+      {
+        "year": 1962,
+        "value": 2000000
+      },
+      {
+        "year": 1967,
+        "value": 2000000
+      },
+      {
+        "year": 1971,
+        "value": 1000000
+      },
+      {
+        "year": 1974,
+        "value": 400000
+      },
+      {
+        "year": 1975,
+        "value": 100000
+      },
+      {
+        "year": 1977,
+        "value": 0
+      },
+      {
+        "year": 1980,
+        "value": 0
+      }
+    ],
+    "source": {
+      "name": "Our World in Data",
+      "url": "https://ourworldindata.org/smallpox",
+      "license": "CC-BY 4.0 (Our World in Data)",
+      "accessed": "2026-06-30"
+    },
+    "page": "https://progresstab.app/facts/smallpox-eradication"
+  },
+  {
+    "id": "solar-electricity-cost",
+    "slug": "solar-power-cost",
+    "question": "Is solar power getting cheaper?",
+    "indicator": "Cost of solar electricity",
+    "value": "0.043 $/kWh",
+    "value_num": 0.043,
+    "unit": "usd_per_kwh",
+    "as_of": 2024,
+    "period": {
+      "from": 2010,
+      "to": 2024
+    },
+    "change": "−90% since 2010",
+    "direction_better": "lower",
+    "why": "When solar power is cheaper than fossil fuels, leaving coal becomes an economic choice, not only an environmental one — though 2024 brought IRENA's first year-on-year uptick in LCOE in a decade, the long-run decline since 2010 (−90%) remains unprecedented.",
+    "chart": [
+      {
+        "year": 2010,
+        "value": 0.46
+      },
+      {
+        "year": 2015,
+        "value": 0.21
+      },
+      {
+        "year": 2018,
+        "value": 0.1
+      },
+      {
+        "year": 2020,
+        "value": 0.057
+      },
+      {
+        "year": 2022,
+        "value": 0.049
+      },
+      {
+        "year": 2023,
+        "value": 0.0427
+      },
+      {
+        "year": 2024,
+        "value": 0.043
+      }
+    ],
+    "source": {
+      "name": "IRENA, Renewable Power Generation Costs in 2024",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf",
+      "license": "© IRENA 2025, attribution required (see source)",
+      "accessed": "2026-07-06"
+    },
+    "page": "https://progresstab.app/facts/solar-power-cost"
+  },
+  {
     "id": "solar-wind-electricity-share",
     "slug": "renewable-electricity-share",
     "question": "How much electricity comes from solar and wind?",
@@ -1544,60 +1706,6 @@
       "accessed": "2026-06-30"
     },
     "page": "https://progresstab.app/facts/renewable-electricity-share"
-  },
-  {
-    "id": "ev-new-car-sales-share",
-    "slug": "electric-car-sales",
-    "question": "What share of new cars sold worldwide are electric?",
-    "indicator": "Share of new car sales that are electric",
-    "value": "25%",
-    "value_num": 25,
-    "unit": "percent",
-    "as_of": 2025,
-    "period": {
-      "from": 2018,
-      "to": 2025
-    },
-    "change": "from 2% in 2018 to 25% in 2025",
-    "direction_better": "higher",
-    "why": "One in four new cars sold worldwide in 2025 was electric — a rapid shift away from oil-powered transport. But the progress is uneven: China is near 55%, Europe 28%, while the US sits at only around 10% — and even that slipped, with US EV sales down 45% year-on-year in Q4 2025 after federal tax credits ended in September.",
-    "chart": [
-      {
-        "year": 2018,
-        "value": 2
-      },
-      {
-        "year": 2020,
-        "value": 5
-      },
-      {
-        "year": 2021,
-        "value": 9
-      },
-      {
-        "year": 2022,
-        "value": 14
-      },
-      {
-        "year": 2023,
-        "value": 18
-      },
-      {
-        "year": 2024,
-        "value": 20
-      },
-      {
-        "year": 2025,
-        "value": 25
-      }
-    ],
-    "source": {
-      "name": "IEA, Global EV Outlook 2026",
-      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
-      "license": "IEA Terms of Use for Non-CC Material (attribution required)",
-      "accessed": "2026-07-07"
-    },
-    "page": "https://progresstab.app/facts/electric-car-sales"
   },
   {
     "id": "tobacco-use-adults",
@@ -1696,53 +1804,57 @@
     "page": "https://progresstab.app/facts/tuberculosis-deaths"
   },
   {
-    "id": "mean-years-schooling",
-    "slug": "years-of-schooling",
-    "question": "Are people getting more schooling?",
-    "indicator": "Years of schooling (adults)",
-    "value": "8.8 years",
-    "value_num": 8.8,
-    "unit": "years",
-    "as_of": 2023,
+    "id": "undernourishment-rate",
+    "slug": "world-hunger",
+    "question": "Is world hunger falling?",
+    "indicator": "Chronic hunger worldwide",
+    "value": "8.2%",
+    "value_num": 8.2,
+    "unit": "percent",
+    "as_of": 2024,
     "period": {
-      "from": 1990,
-      "to": 2023
+      "from": 2000,
+      "to": 2024
     },
-    "change": "+2.9 years since 1990",
-    "direction_better": "higher",
-    "why": "The spread of compulsory public schooling and better-educated younger cohorts replacing older ones lifted the world average from 5.9 years in 1990 to 8.8. Yet that is still short of a completed secondary education, and in the poorest regions adults average only about 6 years.",
+    "change": "−4.5 pts since 2000",
+    "direction_better": "lower",
+    "why": "Rising farm productivity, incomes, and food-security and social-protection programs widened access to food, cutting the share from about 13% in 2000 to 8.2%. Yet roughly 1 in 12 people, about 673 million, still face chronic hunger, and the rate is still above its 7.5% pre-pandemic level.",
     "chart": [
       {
-        "year": 1990,
-        "value": 5.9
+        "year": 2000,
+        "value": 12.7
       },
       {
-        "year": 2000,
-        "value": 7
+        "year": 2005,
+        "value": 12
       },
       {
         "year": 2010,
-        "value": 7.8
-      },
-      {
-        "year": 2015,
-        "value": 8.2
-      },
-      {
-        "year": 2020,
         "value": 8.7
       },
       {
-        "year": 2023,
+        "year": 2015,
+        "value": 7.7
+      },
+      {
+        "year": 2019,
+        "value": 7.5
+      },
+      {
+        "year": 2021,
         "value": 8.8
+      },
+      {
+        "year": 2024,
+        "value": 8.2
       }
     ],
     "source": {
-      "name": "Our World in Data (UNDP, HDR 2025)",
-      "url": "https://ourworldindata.org/grapher/average-years-of-schooling",
+      "name": "Our World in Data (FAO, SOFI 2025)",
+      "url": "https://ourworldindata.org/grapher/prevalence-of-undernourishment",
       "license": "CC-BY 4.0 (Our World in Data)",
       "accessed": "2026-06-30"
     },
-    "page": "https://progresstab.app/facts/years-of-schooling"
+    "page": "https://progresstab.app/facts/world-hunger"
   }
 ]
